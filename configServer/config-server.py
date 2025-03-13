@@ -278,8 +278,8 @@ class RulesMixIn(socketserver.BaseServer):
                 pad_item["properties"] = json.dumps(props)
 
         # add missing template_items
-        for pad_item, id_and_type in zip(template_items, template_items_bare):
-            if id_and_type not in elements:
+        for pad_item, (ctl_id, ctl_type) in zip(template_items, template_items_bare):
+            if (ctl_id, ctl_type) not in elements and ctl_type != "LABEL":
                 continue
             pad_item.update({"controlPadId": 0})
             pad_items.append(pad_item)
