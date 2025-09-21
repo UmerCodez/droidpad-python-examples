@@ -1,8 +1,8 @@
-## This Repository contains Python examples for [DroidPad](https://github.com/umer0586/DroidPad) Android app
+## This Repository contains Python examples for [DroidPad](https://github.com/UmerCodez/DroidPad) Android app
 
 1. ### Clone this Repo
 ```bash
-git clone https://github.com/umer0586/droidpad-python-examples
+git clone https://github.com/UmerCodez/droidpad-python-examples
 ```
 2. ### Install requirements
 ```bash
@@ -30,7 +30,7 @@ cd droidpad-python-examples/servers
   - On Linux, use the `ifconfig` command.
 
 
-Create a new controller in [DroidPad](https://github.com/umer0586/DroidPad). Then, navigate to the connection settings and specify the IP address and port number. Once connected, and you should see JSON messages being printed in the console.
+Create a new controller in [DroidPad](https://github.com/UmerCodez/DroidPad). Then, navigate to the connection settings and specify the IP address and port number. Once connected, and you should see JSON messages being printed in the console.
 
 ---
 
